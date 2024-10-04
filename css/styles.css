@@ -1,5 +1,5 @@
 :root{
-    --primario:rgb(59, 138, 199);
+    --primario:rgb(179, 211, 181);
     --secundario:rgb(144, 88, 36);
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .bg-secundario{
-    background-color:cadetblue;
+    background-color:rgb(81, 179, 117);
 }
 h1{
     font-size: 2.5rem;
@@ -43,11 +43,11 @@ p{
 }
 
 .navegación-principal{
-    background-color: cadetblue;
+    background-color: rgb(81, 179, 117);
 }
 
 .navegación-principal a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
@@ -59,4 +59,105 @@ p{
 }
 
 
+/*HORARI*/
+
+.aw{
+    background-color: rgb(94, 223, 97);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.si{
+    background-color: rgb(78, 108, 124);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sex{
+    background-color: rgb(226, 214, 43);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sox{
+    background-color: rgb(48, 169, 151);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.em{
+    background-color: rgb(130, 107, 190);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.pati{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dias{
+    text-align: center;
+}
+
+.hora{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgb(224, 171, 171);
+}
+
+.hores{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(109, 109, 140);
+
+}
+
+table{
+    border-collapse: ;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-align: center; 
+    color: rgb(3, 255, 141);
+    background-color: rgb(43, 162, 226);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
