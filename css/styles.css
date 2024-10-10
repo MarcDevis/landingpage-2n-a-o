@@ -161,5 +161,64 @@ h1{
     text-transform: uppercase;
 }
 
+/*curriculum*/
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.title {
+    color: green;
+    font-size: 18px;
+}
+.contact-info, .skills, .education, .experience, .internet {
+    margin-bottom: 20px;
+}
+.section-title {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.internet a {
+    color: green;
+}
 
+.fotomarc{
+    margin-bottom: 10px;
+    border: 1px solid rgb(78, 41, 41);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 10px;
+    height: 100px;
+    background-image: url('marc.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5px rgba(85, 29, 175, 0.2);
+    width: 170px;
+    height: 170px;
+    border-radius: 70%;
+    object-fit: cover;
+    transform: scale(1.);
+}
+
+.home{
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
