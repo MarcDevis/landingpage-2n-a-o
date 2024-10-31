@@ -226,7 +226,12 @@ ul {
 
 
 
-
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    height: 70vh;
+}
 
 
 
